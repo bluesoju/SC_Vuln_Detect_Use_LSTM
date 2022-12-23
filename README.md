@@ -11,5 +11,8 @@ Tôi đã thực hiện việc lấy Smart Contract từ các nguồn như Ether
 Sau đó, thực hiện việc quét lổ hổng trên các Smart Contract bằng công cụ [Conkas](https://github.com/nveloso/conkas) và [Slither](https://github.com/crytic/slither) </br>
 Tôi đã label mỗi lỗi theo kiểu OnevsRest ( [1,0,0,0,0], ...)
 # **Xử lý ngôn ngữ tự nhiên**
+Theo trang Ethereum thì có hơn 142 opcode của smart contract thì sau khi nhóm thực hiện gom nhóm và đơn giản hóa số lượng opcode còn hơn 60 opcode. </br>
+Xử lý ngôn ngữ tự nhiên thì ta sẽ thực hiện mỗi opcode như là một text. Và thực hiện one-hot dựa trên word_index (chính là hơn 60 opcode). </br>
+Dimention vector sẽ mang số chiều là 60.
 # **Build-up Model và predict**
 # **Tổng kết** 
