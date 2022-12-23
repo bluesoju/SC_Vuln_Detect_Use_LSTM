@@ -7,7 +7,9 @@ Blockchain. Đây là một vấn đề mới nổi nhưng rất quan trọng. �
 Oyente và Securify chủ yếu dựa trên việc thực hiện hoặc phân tích cú pháp. Các phương pháp này thường mất khá nhiều
 thời gian. Vì vậy, chúng tôi đề xuất phương pháp phát hiện các lỗ hổng trong SC bằng các phương pháp học máy.
 # **Công cụ**
-
-# **Xử lý ngôn ngử tự nhiên**
+Tôi đã thực hiện việc lấy Smart Contract từ các nguồn như EtherScan.io, Google BigQuery... </br>
+Sau đó, thực hiện việc quét lổ hổng trên các Smart Contract bằng công cụ [Conkas](https://github.com/nveloso/conkas) và [Slither](https://github.com/crytic/slither) </br>
+Tôi đã label mỗi lỗi theo kiểu OnevsRest ( [1,0,0,0,0], ...)
+# **Xử lý ngôn ngữ tự nhiên**
 # **Build-up Model và predict**
 # **Tổng kết** 
